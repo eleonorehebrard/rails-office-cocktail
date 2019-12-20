@@ -16,7 +16,7 @@
   color: white;
   opacity: 0.15;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 19px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
@@ -27,6 +27,4 @@
 }
 
 
-.footer-copyright {
-  color: white;
-}
+
