@@ -51,14 +51,68 @@
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  opacity: 0.5;
+  opacity: 1;
 }
 
-#liste {
+.card-category-opacity {
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  opacity: 0.6;
+}
+
+.card-category-text-white{
+  background-position: center;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-category-text-champagne{
+  background-position: center;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #887765;
+  background-color: #f2efec;
+  font-size: 20px;
+  font-weight: bold;
+}
+#list-bold {
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
   opacity: 2;
 }
 
+#liste-acc {
+  color: black;
+  font-size: 25px;
+  font-weight: lighter;
+  opacity: 2;
+}
+
+
+
 li{
   list-style: none;
+}
+
+#white-text {
+  color: white;
+  font-size: 30px;
 }

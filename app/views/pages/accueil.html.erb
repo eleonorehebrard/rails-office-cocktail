@@ -21,12 +21,12 @@
 <!--body-->
 <div class="bande"><img id='photo_accueil' src="http://www.aymonier-associes.com/wp-content/uploads/2019/10/home_photographergeneva-com.jpg" / style="width: 100%; "></div>
 <div class="cards">
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://www.aymonier-associes.com/wp-content/uploads/2019/04/case1_accueil.jpg)">
+  <div class="card-category-opacity" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://www.aymonier-associes.com/wp-content/uploads/2019/04/case1_accueil.jpg)">
   </div>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url()">
-    <ul id="liste">
-      <li>5 PÔLES D’ACTIVITÉ</li>
+  <div class="card-category-text-white" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url()">
+    <ul id="liste-acc">
+      <li id="list-bold">5 PÔLES D’ACTIVITÉ</li>
       <li>INVESTISSEMENTS</li>
       <li>FINANCEMENTS</li>
       <li>AMÉNAGEMENT</li>
@@ -35,12 +35,11 @@
     </ul>
   </div>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://www.aymonier-associes.com/wp-content/uploads/2019/04/case2_accueil.jpg)">
+  <div class="card-category-opacity" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(http://www.aymonier-associes.com/wp-content/uploads/2019/04/case2_accueil.jpg)">
     > Découvrir notre équipe
   </div>
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(https://s3.eu-central-1.amazonaws.com/neonotario/pictures/raphael-hebrard-c933a.jpg)">
-    CONTACT
+  <div class="card-category" style="background-image: url(https://media.licdn.com/dms/image/C4D03AQG-LJ1jofIgGA/profile-displayphoto-shrink_200_200/0?e=1583366400&v=beta&t=nJTzFYYpOhpWvurh9THHn3uoCTyeG7fXA5g0c-TXzGA)">
   </div>
 
 </div>
@@ -53,11 +52,8 @@
   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAADKCAMAAAC7SK2iAAAAh1BMVEUAAAD////4+Pjq6uqRkZGjo6Pz8/P7+/ulpaXHx8fV1dW2trbe3t6ysrLw8PCurq6+vr6Xl5fCwsJ3d3dCQkJPT099fX03Nzfk5OSMjIzY2NjNzc00NDRxcXGDg4OdnZ1YWFgQEBBnZ2crKytgYGAfHx9JSUkZGRkuLi4cHBxERERWVlZNTU0eLUHKAAAN0klEQVR4nO1d6aKyOAz9cEe9istVcdfr3b/3f75REWyWQlva4sx4foqQhrZpcpKWP3+eeAxsq25AZagHQaPqNlSE4Iz6tOpWVIFTcMWm6nZUgDhRPdhX3RD/aN5UH1TdEP8Y3lQPHszQB+5FdFPV2+5laSAMIucyWqnqQexcljr25/acXAvJNH+obj87G0HNtZC76sHMtSxlJCvuzq2QV0H1hVtRGoiu7Wm5FbIVVA/mbmWpw0t7mqLqL05FqSPtj45TKUNRdQ9rqRIiL25WF6jufD1RQ9aeL5dSWkD1xxjx86w9TZdigOaubaoiRll76i7FQNUfY7L37u15dygGqf4QXs3g3h6XXg1S3e1yogihPS69rAFUfexQlDI8zcAeVP0RfFnRtw5G7uRMoOqPEL2BJi0dCoIL+yOY+K2vBu2BoEdY2BugRaYEyufL6KAl6RHmOlR9ZfiU8HJv0XsT51bPUJBNxEB10xG/SO4e54clX6tMziPQsjOoumGTsqWrNsx1CX/Dx5nqyPqYuhoj4RGr3NzSIV612qHTIFEZUHXDEX8Azxj8SzKqSPWJ2VP68Ck1o4lz+DwUrhM2UYeNNsxFbNAbDELNB3zuwoubX1s1XcaPEMi5NrXxA6y7FvHxFor25tOwDbrYoiYb0mYnrHqgoQBaZrwF82V6S0CInqMRksd2WqCPlWmLEdpIdWW+C62v7jOfGZCFMlb9L+521Rvh6mDqSxsBWijzNRnN2OBV8T5wU99YvAlgt5dYWXdQdcUwcG00SyxBzIyUGm8joDqaOvNh2O33u2HUef0GF4Rbav4W9QTvgvBySUcwgERLfdiBGb3aCoMruv++LiXdBPdFuaz3PRWcQ/FZxwChfX8xh+zHKgoK05XVAoPQyRR5E3499PDaF9SycCFd3f6Wl26A2JbmZ7N10xLHv7MlVj5bwROqSHVFsI3Xbq1/tPWw2Ut/yUydnwjpnjF0m0Vr/DClFm7wdwF1972WVYoXqLtfD6ZioEjRX6zyAEC6V2PWKwKsKPpfTfc/0NYZsoHO8O2SH5w+cLdPVoO6S5YIMjp7h5I0sU388Lfif5rih3fqqsYxnYkua9sgA+5QkAbm99i9oPDhtArHndl0bjQ4QMVssDd5hG0AniVfqXRw1PrnV7CZr7VIBshEPoBbs4arTn7sDoteg2DQDYfnQaC4MoBbITP0vp5PVxuHloYBTh4Nc/89ClgsIiW+AUbv6a/zWS/s3ljSlccUPCFS8kOLA696oOajQAI6+e0LDiR/RVbvAUH+DSTdotNmmPdIBkpN/w3aAZ67QREvvaY3KL2yK8bghqv79AEf4m8XJHQuhRbJMWRuMVM9KVWED/G3W6ATUBQtOnXmnkCt8DBkBIH573GzAEo6XlFUWPPFq65CaEOKMklWiHlqn8VlXA8W1jl9MDep+aVQ3C1Pcx8KXotx2MFbeBenu1KHwVvSFNXNxq/8krPcgA9+Cm9b01em5IfBW1Kj8nVxJxfWOHFFsOZaZdzhWhyl/DwqP7kXo28mvhXHsZSOGq/AZKllapG0ajkqWCZ8Q1ft3tM4K3ZXpB1QmZ3fWAWDFL5doXr3YdMI+4tlZ6/29zdDMW7Au6WOhCH7UHUKhlXdjc3Br7kKqmIo2BdWdTc73/CC+OFESi5mIhvBRG6O/Emcaq6gOP4drF7s6uYiPYA1d7nFTIYlUP2XHfHWhU4X7mUU4rK5TzQwrOqWV9w3xmmswMhdkvyipzqmrbK8PWf6UqMSqtjneJEr8jC4OvwKizuOT2yEVMUpbNcIAqzbXMN0NzPIcJj1ucdXs6X56lGBei2ucXYOKXobSbisao5gu0oGhZk7rm0WJE17zBS/wX9laLqWwSZybbNQxyfVu6JDyDpMn5JazsCKvxEzj7U3pvQxYERjwuWC/MSbGoj/lsKWEdUD99YnTOusBJRsfBAoUyF2sWUHnLMxyS/p1Qz4Hiua6x078l6YJ1fU7S1WLy5nbsnb2nI29Dyf/NdD812KObMLbLEVX/ygb/c8ExWpQcO/t2jb7JV2bSQuXX/kcxNAmlfFzhQTU9p0Nbcyf7Yfexv4qbuOXzcpKmFGRilMJFFMUFt5SqinAokNYxpluT9+e7Ku93JgS1aoSZJqTIGMdT/7cIooS3Ue9F62emWLGCGHGH/byflov7OwL9rU+spTmrEnV4uq7mxr8Xp/2jZ7UfQyOu69bejM3jeNH5ih6KtVCG5ykJlWdOVi6HgnTSjEptUP473tpx5z1GJKRKo59DXJetd3dhcYgYn6Jhep6hVkRy64Tb12ZNPTFVYwWhVI+YqKzru9BxSRvZ4X1KImnvIVVZ0Nd19o2x1bu5AEtZjKRjriLYnVhrDaDOws+7N8tShfQQ2CCHd88lxshJVpB8phabxI+YqcMuHjqt6qOzt6FwSSNj6SBIq9aJ6T8hWyXOhn4xaJWCz+egN+HcxdlM99gucxNozwFRLOuJH90RLF9jpa1Nugb20dF5QCvkp6nfAVbOLtJMSeNuiMj7jPdAUyPGULXKDqtBiUHiLGPAQs/6XJ+rfZ8kZbIruCt6WUTFpA1ZlmE9WJLZxDuqFkiuYY3ucYvoaNbrk4EuU96eJE+Ao8MnDhWxnC+mMnvkY6mzGnU6rfkep0wST1FbhXcXPM27Lp8jve7nhFskpRxDjbTf+BpaFJgV+NaYnZfIePZeTIMJKsLGHnser0UYSvyH+AmaP1OyYVB/xgJnkb8631RCL5B+ErwFV8rpxRgubE5PckaySRZ35WFaHCyewh9RXAjpFXp+/MHVk6XhYNkD8bl5ZSJ50sXniMgX4lyTPdcJpXXP4G5+Svpmb+QJ5E3iLmK+C4mA+hr6snfk+O4UqQUzVJU9Sm7jxNf+DqNcxX4Fn4HouWUEf2XLYLODcOoH835GsZ1hVbeXydPuRjtJJflIvm0+xFYQCt5DT8bAVXJYZWVGx/WZua9qCy4CM5XjlDQS/SgWo45Jk0OuJdsSmUJN64EjQp3tkC5ARF/BMNqQxdSLYuEnir3+iizINqqTdiIq+ZVEhpUjfA0KFl5a9EggQNTdnUaiqrLi2ew2+dB13gDLfMcLvVg6A2k/9D8qDrUqCQK/yQz3LFQJTOFkOWgJvtZyyz09/QGdYy1a9xVTFRLDnOJIFa9IOnoJJcaZMpBndLjq5IQvLrcwp3/ebYt7M/pZheoDPGMGJkN3KKcw41VxKiXC1vQRQ5l1WQJFDl8Zkl2TAv8UEi0zFYvJEXIbGn16Rt/lzlSpME7JVbTFcIY05wKy4Yyw5++1CKxNtKPN48Kez+uTs0Ym+mcLv4bAEZ5q/xy3g87o32TPCFwiv+CUksnfPZh9xprlejxLxER6d5IL+Hf8FxvgLfkigthVbqnhs/mjopAjkRvBlPVi2ZYzWXrKEp9Fg27kwJR+cdQLPCe1zNvJfP7xW9Q5PT496jo8MZIUHAu7I3p4+t76WcGoTmFjdPm26v2CgIuanODQneWb5DN4/CVVg6O+ZCQfXbgsNsTOX2EInQzc5KDvtytF0M8o+sK5v+hZgb6Wl0hpqzcXbg7DO/8MAW1pVNfVTsTsv2OJlqLh1DjuzcoVhIRrWBFfor32vX1nwqq6J3d7oJ0IDl/e+XBSPPsEkQmjR6nsF0deI0lMn9Q7ichlGfRQZOc5Buc/0iV2d8wIJZ5hB7cNje+Kz84TiU0c0ZtAoRZgVzx9k548ChYxxutPTXWjnUYwqN5ORnI4/XusLZZ6TBiGf8zlziiYf6QnwcFw4ghycxgioeZmwVeWwUqvH5b7Mg9LnB3fkmwKuhlwuicQo1SulHesCD4QNNAAzdnlxWbmGClgqrMm3oPNW2wgLEbqcGSk/zejH3+qOlt0Mr9wfWidFYS6uZhS6cXn9f4fSwCzFqJxd1WllgkAz05lpkFcIKg8lL5nRxKXJN+7rBR+NFcBS3pRDcFuLUKLex9SsXcNjKo5MCuNT7grulI863ahNz4qtNUWSfA/eHsN6HPL6iuK5Lx+W6qeD5SuHha7b31BFOJytN9pqsenhSRGjkw8v5VVkYSsj4wtBcSrzOS3X4GS0/3ypPAygaab8V9NyC3xa6KdfhZww8bX7OErzMNUnt4xV1vs6pOBYthL9jd1OGkn3VkvMDgy5rgf8WsjgKcLa/jMGtayUFFO8dkldcdtjswKYgAamErt/P+CZC5bTa4TSMlteB3OpHwyMfqcTlR/pZcd+7ypMigqLzPw9nyK696RMbFK3hl2XFFJBMaOMtxX+1aQ0GUTXHCCRD3jBKPJZezIJWz/+3ElJcKyiMaMAiRrkYq061n2y+KGDAe2/UCEYZBuOmebWQLeyNVDePzGrdXrOiyU0Qd/XJMP1YvNUf94Yjz9/xU4CuhVfSvLVYhr3ecBdvflx+GtcvGM3bg0U3jHovw11jdvx4uL61hYxxay/PY3iyr+Kc5IpQu5yh9zLKIeb+s5B7tU888cQTTzzxxBNPPPHEI+B9/nraTGbbbRw3GqPRqDFqXBBvZ5PN8fQ7/e+EqPPjtrFrDsfdRUuhsFEI2Vv1/ioaNnej+Fgt3aiLz9lu2LWRR7mhPm42HoWDk2Med4wLXwrfQPQwJCRFaTq9EO0qPlyqAouDXAqr3w20iImNFHEOBlGngmyiKtbbTuSg92thJ/6XkJa/cbMT9cullK4q96PObuLtowBW8b3f7jrDcFHTwGAZdZqjyeuTtHSAfwCDR5RQVxFkSgAAAABJRU5ErkJggg==" / style="width: 80px; ">
   <div class="footer-links">
     <a href="#">ACCUEIL</a>
-    <a href="#">| L’ÉTUDE</a>
-    <a href="#">| DOMAINES D’INTERVENTION</a>
-    <a href="#">| L’ÉQUIPE</a>
-    <a href="#">| HONORAIRES</a>
-    <a href="#">| CONTACTS</a>
+    <a href="<%= pages_etude_path %>">| L’ÉTUDE</a>
+    <a href="<%= pages_contact_path %>">| CONTACTS</a>
   </div>
 </div>
 <!--/Footer-->

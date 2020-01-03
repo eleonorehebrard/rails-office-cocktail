@@ -14,13 +14,12 @@
 }
 .footer-links a {
   color: white;
-  opacity: 0.15;
   text-decoration: none;
   font-size: 19px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
-  opacity: 1;
+  opacity: 0.15;
 }
 .footer .fa-heart {
   color: #white;
