@@ -1,7 +1,7 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 1px;
+  grid-gap: 0px;
 }
 
 // Smallest device
@@ -115,4 +115,16 @@ li{
 #white-text {
   color: white;
   font-size: 30px;
+}
+
+#contact {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  opacity: 1px;
+}
+
+#section-content {
+  background-color: white;
+  color: black;
 }
