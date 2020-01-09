@@ -132,6 +132,13 @@ li{
 
 #googlemap{
   position:relative;
-  left:600px;
-  top: -420px;
+  left:620px;
+  top: -450px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+#container-text{
+  padding-top: 60px;
+  padding-left: 100px;
 }
