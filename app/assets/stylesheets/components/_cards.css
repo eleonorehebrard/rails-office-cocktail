@@ -129,3 +129,9 @@ li{
   background-color: white;
   color: black;
 }
+
+#googlemap{
+  position:relative;
+  left:600px;
+  top: -420px;
+}
